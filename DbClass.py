@@ -5,8 +5,8 @@ class DbClass:
         self.__dsn = {
             "host": "localhost",
             "user": "root",
-            "passwd": "Yr27GhTg",
-            "db": "db_temperatuurmonitoring"
+            "passwd": "YourPassword",
+            "db": "YourDatabase"
         }
 
         self.__connection = connector.connect(**self.__dsn)
