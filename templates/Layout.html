@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AquaMonitor</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/css.css">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+</head>
+<main>
+    <img class="Logo" src="/static/images/Aquamonitor2.png" alt="Logo" style="width:250px;height:45px;">
+    {%  import 'macro/Macro.html' as macros %}
+    <nav>
+        <ul class="NavUL">
+            <li class="NaLI">{{ macros.nav_link('/', 'Home') }}</li>
+            <li class="NaLI">{{ macros.nav_link('/Data', 'Data') }}</li>
+            <li class="NaLI">{{ macros.nav_link('/Instellingen', 'Instellingen') }}</li>
+        </ul>
+    </nav>
+{% block body %}
+{% endblock %}
+</main>
+</html>

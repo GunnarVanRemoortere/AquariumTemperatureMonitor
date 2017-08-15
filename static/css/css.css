@@ -1,0 +1,76 @@
+html,body,header {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #BDBDBD linear-gradient(to bottom, #11a6ba 0px, #11a6ba 60px, #BDBDBD 51px, #BDBDBD 100%) repeat-x;
+
+}
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+nav {
+    margin: 12px 0px 40px;
+    float:right;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #11a6ba;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    font-wight:bold;
+}
+li a:hover:not(.active) {
+    background-color: #11b7ba;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.Logo {
+    margin-top:8px;
+    margin-bottom: 20px;
+}
+
+
+.flex-container {
+    display: flex;
+    width: 1230px;
+    height: 600px;
+    background-color: transparent;
+    margin:auto;
+}
+
+.flex-item {
+    width: 387px;
+    height: 387px;
+    margin: 50px 20px 10px 0px;
+    background-color: white;
+    border: 5px solid #fff;
+    border-radius: 15px;
+}
